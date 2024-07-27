@@ -1,0 +1,75 @@
+.suggestions-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.suggestion-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    /*border: 1px solid #ccc;*/
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: calc(100% + 5px);
+    left: 0;
+}
+
+.kt-input-icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.kt-input-icon__icon {
+    position: absolute;
+    left: 10px;
+    z-index: 2;
+}
+
+.form-control {
+    flex-grow: 1;
+    padding-left: 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.suggestion-item:hover {
+    background-color: #f2f2f2;
+}
+
+.highlighted {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 0, 0.5);
+}
+
+ /*
+.highlighted {
+    background-color: #dbc70f !important; 
+*/
+
+
+.custom-text-danger {
+    color: #ff0000; /* Puedes ajustar el valor del color rojo según tus preferencias, MENSAJE PARA EL IDALU Y FECHA DE NACIMIENTO */
+  }
+
+
+/* PARA EL IDALU */
+  
+.text-center {
+    text-align: center;
+}
+

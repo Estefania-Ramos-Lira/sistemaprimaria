@@ -1,0 +1,78 @@
+
+html{
+	margin:0cm;
+}
+
+
+@font-face{
+	font-family: Oswal;
+	src:url(../fonts/Oswald-Regular.ttf);
+}
+
+@font-face{
+	font-family: Oswald;
+	src:url(../fonts/Oswald-SemiBold.ttf);
+}
+
+
+.line_carnet {
+	border: 0.5px black solid;
+/*	padding-bottom: 6px;*/
+	background-color:  #fff;
+
+	background: url('../../files/ie/CARNET2019.png');
+	background-repeat: no-repeat;
+	background-position: center;
+
+
+}
+
+.sub_table {
+/*	border: 1px red solid;*/
+	text-align:center;
+/*	margin-top: -2.6cm;*/
+	border: 0.1px black solid;
+	border-collapse:collapse;
+
+
+}
+
+.center_logo {
+  text-align:center;
+}
+
+.color_lg {
+  text-align:right;
+}
+
+
+.color_header{
+	color: #fff;
+	/*background-color: #314F8C;*/
+	pad
+}
+
+.margin_txt_iz{
+ 	 padding-left:20px;
+ 	 width:55%;
+}
+
+
+.padding_txt_img {
+/*	padding-top: 4.5px;*/
+padding-left: 1px;
+}
+
+
+.radius_img {
+
+		border: 1px black solid;
+		border-radius: 5px;
+		width:100px;
+		height:100px; 
+}
+
+
+h1 { text-align: center
+}
+

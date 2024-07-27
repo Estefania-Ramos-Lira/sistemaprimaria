@@ -1,0 +1,63 @@
+
+html{
+	margin:0cm;
+	
+}
+
+
+@font-face{
+	font-family: sqr721bc;
+	src:url(../../resource/assets/js/js/fonts/sqr721bc.ttf);
+}
+
+
+@font-face{
+	font-family: SQR721C;
+	src:url(../../resource/assets/js/js/fonts/SQR721C.ttf);
+}
+
+
+@font-face{
+	font-family: Arial;
+	font-style: normal;
+	src:url(../../resource/assets/js/js/fonts/arial.ttf);
+}
+
+
+body{
+	margin-left: 15mm;
+	margin-right: 15mm;
+	margin-top: 10mm;
+	margin-bottom: 15mm;
+	font-family: Arial, sans-serif;
+}
+
+.line_carnet {
+	border: 3px black solid;
+	background-color:  #fff;
+ }
+
+.sub_table {
+	text-align:center;
+	border-collapse:collapse;
+}
+
+.colorheader{
+font-size:12pt;
+font-family: sqr721bc;
+}
+
+.bfont{
+/*font-weight: bold;*/
+font-size: 9.5pt; 
+}
+.radius_img {
+height:90px; 
+}
+
+table td{
+	padding: 0px;
+
+}
+
+

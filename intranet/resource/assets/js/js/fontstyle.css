@@ -1,0 +1,75 @@
+@font-face{
+	font-family: Oswal;
+	src:url(fonts/Oswald-Regular.ttf);
+}
+
+@font-face{
+	font-family: Oswald;
+	src:url(fonts/PoetsenOne-Regular.ttf);
+}
+
+
+
+
+.wrap{
+
+	text-align: center;
+}
+
+
+.widget p{
+
+	display: inline-block; 
+	line-height: 1em;
+	color: #FFFFFF;
+}
+
+
+.fecha{
+
+
+	font-family: oswald, Arial;
+	font-size: 1.5em;
+	color: black;
+	background: rgba(0,0,0,0);
+
+
+	padding-right: 30px;
+}
+.reloj{
+	
+	font-family: oswald, Arial;
+	font-size: 2.5em;
+	color: black;
+	background: rgba(0,0,0,0);
+	margin-top:0.2125rem;
+}
+
+.reloj .caja-segundos{
+	display: inline-block;
+}
+
+
+.ampm{
+	font-size: 22px;
+}
+
+table{
+
+font-family: oswal, Arial;
+text-align: center;
+
+	}
+
+#kt_table_1 > tbody > tr:nth-child(1) {
+      background: #FFDFC3;
+      color: #fff;
+    }
+
+.dataTables_wrapper .dataTable th{
+	color: #FFFFFF;
+}
+
+.dataTables_wrapper .dataTable td{
+	color: #000000;
+}

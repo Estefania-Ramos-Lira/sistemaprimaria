@@ -1,0 +1,44 @@
+
+body{
+/*font-family:Poppins,Helvetica,sans-serif;
+font-size: 10pt;*/
+font-family:DejaVu Sans,sans-serif !important;
+    font-size: 10pt;
+}
+
+.txtheader{
+	text-align: center;
+}
+
+
+.radius_img {
+	width:50px;
+	height:50px; 
+}
+
+
+table{
+	border: none;
+	border-collapse:collapse;
+	width: 100%;
+}
+
+    td,th{
+    border: 0.1px #92D050 solid;
+      padding: 3px;
+    }
+
+    #header{
+      background-color: #006B3D;
+      color: #FFFFFF;
+    }
+
+
+.text-center{
+  font-family:DejaVu Sans,sans-serif;
+  text-align: center;  
+}
+
+.text-center-header{
+  text-align: center;  
+}
